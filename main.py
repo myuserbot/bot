@@ -33,7 +33,7 @@ def world(update, context):
             "{:,}".format(data['deaths'])
         ), reply_markup=buttons)
 
-updater = Updater('TOKEN', use_context=True)
+updater = Updater('1263243601:AAGw7g8tWuQeoku17-Ggffd9Q1VqCyWWKPU', use_context=True)
 conv_handler = ConversationHandler(
     entry_points = [CommandHandler('start', start)],
     states={
